@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #D9E6F7;
+}
+
+header {
+    background-color: #FDFEFF;
+    width: 100vw;
+    height: 92px;
+    display: flex;
+}
+
+header a {
+    margin: 32px 28px;
+}
+
+.logoOrkut {
+    width: 132px;
+    height: 39px;
+    padding: 25px 80px;
+}
+
+.input {
+    background-color: #EFF3F8;
+    width: 355px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+
+.input img {
+    width: 24px;
+    height: 24px;
+    margin: 20px 10px;
+}
+
+.input input {
+    border: none;
+    width: 263px;
+    height: 24px;
+    background-color: #EFF3F8;
+}
