@@ -5,8 +5,7 @@ import Search from '../../img/search.png';
 
 function Home() {
     return (
-        <body>
-
+        <>
         <header>
         <img src={LogoOrkut} className='logoOrkut' />
 
@@ -23,7 +22,22 @@ function Home() {
         </div>
 
         </header>
+        
+        <body>
+        <section className='information'>
+
+        </section>
+
+        <section className='profile'>
+            
+        </section>
+
+        <section className='friends'>
+            
+        </section>
+
         </body>
+        </>
     )
 }
 

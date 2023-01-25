@@ -5,6 +5,7 @@
 
 body {
     background-color: #D9E6F7;
+    display: flex;
 }
 
 header {
@@ -30,6 +31,7 @@ header a {
     height: 44px;
     display: flex;
     align-items: center;
+    margin: 24px;
 }
 
 .input img {
@@ -43,4 +45,27 @@ header a {
     width: 263px;
     height: 24px;
     background-color: #EFF3F8;
+}
+
+section {
+    background-color: #FDFEFF;
+    border-radius: 20px;
+}
+
+.information {
+    width: 320px;
+    height: 725px;
+    margin: 40px 24px 207px 80px;
+}
+
+.profile {
+    width: 664px;
+    height: 627px;
+    margin: 40px 24px;
+}
+
+.friends {
+    width: 320px;
+    height: 434px;
+    margin: 40px 80px 24px 24px;
 }
